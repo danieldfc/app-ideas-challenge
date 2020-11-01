@@ -10,7 +10,7 @@
   <a href="#bulb-future-features">💡 Future features</a>&nbsp;&nbsp;&nbsp;
 </p>
 <p align="center">
-  <img src="./assets/border-radius-previewers.png" />
+  <img src="./assets/border-radius-previewers.png" width="100%" />
 </p>
 
 <p align="center">

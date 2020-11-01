@@ -9,8 +9,9 @@
   <a href="#electric_plug-technologies">🔌 Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-future-features">💡 Future features</a>&nbsp;&nbsp;&nbsp;
 </p>
+
 <p align="center">
-  <img src="./assets/bin2dec-desktop-mobile.png" />
+  <img src="./assets/bin2dec-desktop-mobile.png" width="100%" />
 </p>
 
 <p align="center">
