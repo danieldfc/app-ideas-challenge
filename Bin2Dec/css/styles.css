@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #CA054D, #2C497F);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: 'Noto Sans JP', serif;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  font-family: 'Noto Sans JP', serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+main aside.container .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+main aside.container .input-container input {
+  width: 430px;
+}
+
+main aside.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 470px;
+}
+
+main footer p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+main aside.container :nth-child(3) {
+  text-align: center;
+  margin-top: 15px;
+}
+
+main aside.container :nth-child(3) h2 {
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+input {
+  flex: 1;
+  background: none;
+  border: 0;
+  border-bottom: 1px dashed #2C497F;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background: #2C497F;
+  font-weight: bold;
+}
+
+.no-visibility {
+  display: none;
+}
+
+.visibility {
+  display: hidden;
+}
+
+@media (max-width: 720px) {
+  main aside.container {
+    width: 380px;
+  }
+
+  main aside.container .input-container input,
+  main aside .result,
+  main aside .result input {
+    width: 350px;
+  }
+
+  main aside.container button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  main aside.container {
+    width: 300px;
+  }
+
+  main aside.container .input-container input,
+  main aside .result,
+  main aside .result input {
+    width: 260px;
+    font-size: 16px;
+  }
+
+  main aside.container button {
+    font-size: 14px;
+  }
+
+  main header h1 {
+    font-size: 32px;
+  }
+
+  main footer p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 360px) {
+  main aside.container {
+    width: 280px;
+  }
+
+  main aside .result,
+  main aside .result input {
+    width: 240px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 300px) {
+  main aside.container {
+    width: 240px;
+  }
+
+  main aside.container .input-container {
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  main aside.container .input-container input {
+    width: 200px;
+  }
+
+  main aside.container .input-container label {
+    font-size: 16px;
+  }
+
+  main aside .result,
+  main aside .result input {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  main aside.container :nth-child(3) h2 {
+    font-size: 16px;
+  }
+
+  main footer p {
+    font-size: 16px;
+  }
+}
