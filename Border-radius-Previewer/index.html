@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  
+  <title>Border-radius Previewer - Challenge</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Border-radius Previewer</h1>
+      <hr />
+    </header>
+    <aside>
+      <div class="inputs-container">
+        <div class="input-container">
+          <label for="top-left">Top Left</label>
+          <input
+            type="number"
+            id="top-left"
+            min="0"
+            value="4"
+            onchange="borderRadiusTopLeft()"
+          />
+        </div>
+        
+        <div class="input-container">
+          <label for="top-right">Top right</label>
+          <input
+            type="number"
+            id="top-right"
+            min="0"
+            value="4"
+            onchange="borderRadiusTopRight()"
+          />
+        </div>
+        
+        <div class="input-container">
+          <label for="bottom-left">Bottom left</label>
+          <input
+            type="number"
+            id="bottom-left"
+            min="0"
+            value="4"
+            onchange="borderRadiusBottomLeft()"
+          />
+        </div>
+        
+        <div class="input-container">
+          <label for="bottom-right">Bottom right</label>
+          <input
+            type="number"
+            id="bottom-right"
+            min="0"
+            value="4"
+            onchange="borderRadiusBottomRight()"
+          />
+        </div>
+      </div>
+      
+      <div class="box"></div>
+    </aside>
+    <footer>
+      <p>Created by Daniel Felizardo 💜</p>
+    </footer>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
