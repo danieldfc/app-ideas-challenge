@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/bin2dec-desktop-mobile.png" width="100%" />
+  <img src="https://github.com/danieldfc/app-ideas-challenge/blob/master/beginner-projects/Bin2Dec/assets/bin2dec-desktop-mobile.png" width="100%" />
 </p>
 
 <p align="center">
