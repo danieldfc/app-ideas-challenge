@@ -9,6 +9,9 @@
   <a href="#electric_plug-technologies">🔌 Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-future-features">💡 Future features</a>&nbsp;&nbsp;&nbsp;
 </p>
+<p align="center">
+  <img src="./assets/bin2dec-desktop-mobile.jpeg" width="500" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-red" />
