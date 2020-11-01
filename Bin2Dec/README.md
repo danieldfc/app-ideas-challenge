@@ -7,7 +7,6 @@
 <p align="center">
   <a href="#hammer-setup-instructions">🔨 Setup Instructions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#electric_plug-technologies">🔌 Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-improvements">🔧 Improvements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-future-features">💡 Future features</a>&nbsp;&nbsp;&nbsp;
 </p>
 
